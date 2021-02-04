@@ -174,7 +174,7 @@ background-color: red;
 }
 .footer{
     margin-top: 100px;
-    max-width:120% ;
+    max-width:150% ;
   height: 420px;
   background-image: url("https://res.cloudinary.com/imad2514/image/upload/v1612371567/footer2_ejfuzu.png");
   background-repeat: no-repeat;
@@ -274,8 +274,8 @@ border-top-style: hidden;
     }
     .section2_img1{
         position: relative;
-        max-width: 98.5%;
-        padding-left: 7px;
+        max-width: 99%;
+        margin-left: 8px;
 
     }
     
@@ -285,47 +285,50 @@ border-top-style: hidden;
       left: 50px;
       font-size: 30px;
         color: black;
-      }
-      .buttomleft1{
+    }
+    .buttomleft1{
         position: absolute;
         font-size: 20px;
         color: #646F78;
     
-      }
+    }
+    .section2_images{
+        margin-left: 4px;
 
+    }
 
 
     .section2_img2{
-        max-width: 48%;
+        max-width: 48.25%;
         padding-top: 10px;
 
 
     }
     
     .section2_img3{
-        max-width: 48%;
+        max-width: 48.25%;
         padding-top: 10px;
-        padding-left: 12.64px;
+        padding-left: 14px;
 
      
 
 
     }
     .section2_img4{
-        max-width: 48%;
+        max-width: 48.25%;
         padding-top: 10px;
      
 
 
     }
     .section2_img5{
-        max-width: 48%;
+        max-width: 48.25%;
         padding-top: 10px;
-        padding-left: 12.64px;
+        padding-left: 14px;
     }
 
   .footer{
-     width: 150%;
+    max-width: 150%;
     padding-left:20px;
  
     }
@@ -355,19 +358,25 @@ border-top-style: hidden;
 
     }
     .container{
-        max-width: 90%;
+        max-width: 100%;
          min-height: 1000px;
          margin-left: 30px;
     }
 
     .section2{
+        max-width: 100%;
+        margin-right: 50px;
+
+    }
+    .section2_images{
         padding-right: 50px;
-
-
+        
     }
     .section2_img2{
         max-width: 100%;
         padding-top: 10px;
+        /* padding-left: 3px; */
+
     }
 
 
@@ -375,10 +384,6 @@ border-top-style: hidden;
         max-width: 100%;
         padding-top: 10px;
         /* padding-left: 12.64px; */
-
-     
-
-
     }
     .section2_img4{
         max-width: 100%;
