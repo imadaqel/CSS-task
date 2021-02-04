@@ -174,7 +174,7 @@ background-color: red;
 }
 .footer{
     margin-top: 100px;
-    max-width:160% ;
+    max-width:100% ;
   height: auto;
   background-image: url("https://res.cloudinary.com/imad2514/image/upload/v1612371567/footer2_ejfuzu.png");
   background-repeat: no-repeat;
@@ -256,7 +256,7 @@ border-top-style: hidden;
 }
 
 
-  @media only screen and (max-width: 1200px) {
+  @media (min-width: 600px) and (max-width: 1200px){
     .img2 {
         max-width: 40%;
         float: left;
@@ -361,46 +361,86 @@ border-top-style: hidden;
         padding-left:25px;
         width: 22em;
         margin-bottom: 20px; */
-
+        padding-left: 20px;
     }
     .container{
-        max-width: 100%;
-         min-height: 1000px;
-         margin-left: 30px;
+        max-width: 77%;
+        min-height: 1000px;
     }
 
     .section2{
         max-width: 100%;
-        margin-right: 50px;
+        /* margin-right: 50px; */
 
     }
     .section2_images{
         padding-right: 50px;
         
     }
-    .section2_img2{
-        max-width: 100%;
+    .section2_img1{
+        max-width: 90%;
         padding-top: 10px;
         /* padding-left: 3px; */
+
+    }
+    .section2_img2{
+        max-width: 90%;
+        padding-top: 10px;
+        padding-left: 0px;
 
     }
 
 
     .section2_img3{
-        max-width: 100%;
+        max-width: 90%;
         padding-top: 10px;
-        /* padding-left: 12.64px; */
+        padding-left: 0.0px;
     }
     .section2_img4{
-        max-width: 100%;
+        max-width: 90%;
         padding-top: 10px;
+        padding-left: 0.0px;
      
 
 
     }
     .section2_img5{
-        max-width: 100%;
+        max-width: 90%;
         padding-top: 10px;
         /* padding-left: 12.64px; */
+        padding-left: 0.0px;
+
     }
+    .footer{
+        max-width: 100%;
+     
+    
+    }
+    .footer-title{
+        /* position: relative;
+        display: flex;
+        justify-content:center; */
+        top: 25px;
+      font-size: 30px;
+    }
+    .footer-list{
+
+        display: block;
+        margin-left: 60px;
+        padding-bottom: 20px;
+    }
+    .footer-span {
+        padding-top: 5px;
+        font-size: 11px;
+    }
+    .section2_title {
+        font-size: 26px;
+       
+        margin-left: 88px;
+    }
+
+
+
+
+
   }
