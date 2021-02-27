@@ -1,0 +1,80 @@
+.footer{
+    margin-top:100px;
+  height: auto;
+  background-color: #2E3134;
+//   background-image: url("https://res.cloudinary.com/imad2514/image/upload/v1612371567/footer2_ejfuzu.png");
+ //   background-repeat: no-repeat;
+ .container{
+    // margin-top:100px;
+
+
+ .items {  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 140px;
+    font-size: 30px;
+    width: auto;
+    h2{
+        position: relative;
+        display: flex;
+        justify-content:center;
+        top: 50px;
+      font-size: 55px;
+      color: #D4D5D5;
+    }
+    span{
+        padding-top: 10px;
+        font-size: 13px;
+        color:#787B7D;
+        margin-top: 35px;
+    }
+    .input-group{
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        div {
+            margin: 8px;
+        }
+        input{
+            border-top-style: hidden;
+                border-right-style: hidden;
+                border-left-style: hidden;
+                border-bottom-style: groove;
+                background-color:#2F3235;
+              font-size: 17px;
+        }
+        
+        button{
+           font-family: 'Noto Sans', sans-serif;
+            font-size: 13px;
+            float: left;
+            width: 190px;
+           height: 63px;
+           color: #ffff;
+           border: 2px #3C3F41;
+           border-radius: 40px;
+           background-color: #3C3F41; 
+           margin-top: 25px;
+        }
+    }
+ }
+}
+ .list{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #7F8183;
+
+    div {
+        margin: 8px 50px;
+    }
+ }
+}
+
+
+
